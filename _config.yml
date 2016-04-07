@@ -21,7 +21,7 @@ links:
   - title: Sobre nós
     url: /sobre-nos/
   - title: Feed
-    url: /feed.xml/
+    url: /feed.xml
 
 
 exclude: ['package.json', 'src', 'node_modules', 'examples']
