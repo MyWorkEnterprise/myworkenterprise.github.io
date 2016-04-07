@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+  <body>
+
+    <section class="trianglify"></section>
+    <section class="wrapper">
+      {% include header.html %}
+    </section>
+    <section class="post-container" id="scroll">
+      {{ content }}
+    </section>
+
+    {% include footer.html %}
+
+    <!-- javascript -->
+    <script async type="text/javascript" src="{{ "/assets/js/main.js" | prepend: site.baseurl }}"></script>
+  </body>
+</html>

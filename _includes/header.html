@@ -1,0 +1,36 @@
+
+<div class="canvas">
+  <div class="menu">
+      <nav class="nav">
+        <h2>MENU</h2>
+        <ul>
+          {% for link in site.links %}
+            <li><a href="{{ site.baseurl }}{{ link.url }}">{{ link.title }}</a></li>
+          {% endfor %}
+        </ul>
+      </nav>
+  </div>
+
+  <article class="content">
+    <div class="menu-icon">
+      <div class="toggle-menu"></div>
+    </div>
+    <div class="search">
+      <i class="fa fa-search"></i>
+    </div>
+    <div class="overlay">
+      <div class="search-input">
+        <input id="findPost" type="text" placeholder="Pesquisar algum assunto...">
+        <ul class="search-results"></ul>
+      </div>
+    </div>
+    <header class="logo">
+      <h1 class="title">{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</h1>
+      <h2 class="desc">{% if page.description %}{{ page.description | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}</h2>
+      <p class="date">{% if page.date %}{{ page.date | date_to_string }}{% endif %}</p>
+      <div class="arrow-down">
+        <a data-scroll href="#scroll"><i class="fa fa-arrow-down"></i></a>
+      </div>
+    </header>
+  </article>
+</div>

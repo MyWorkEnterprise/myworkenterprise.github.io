@@ -1,0 +1,27 @@
+# Site settings
+title: MyWork's Blog
+description: > # this means to ignore newlines until "baseurl:"
+  O blog da comunidade
+baseurl: ""
+# url: "http://blog.mywork.art.br" # the base hostname & protocol for your site
+url: "myworkenterprise.github.io" # the base hostname & protocol for your site
+
+
+# Build settings
+markdown: kramdown
+permalink: /:title/
+highlighter: rouge
+
+
+links:
+  - title: Home
+    url: /
+  - title: Escrever um post
+    url: /escrever-um-post/
+  - title: Sobre nós
+    url: /sobre-nos/
+  - title: Feed
+    url: /feed.xml/
+
+
+exclude: ['package.json', 'src', 'node_modules', 'examples']

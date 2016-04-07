@@ -1,0 +1,28 @@
+
+.share-post
+  width 100%
+  height auto
+  display flex
+  margin-top rem(20px)
+  margin-bottom rem(50px)
+
+  // > .box
+
+  > a
+    margin 0
+    text-decoration none
+    margin-left auto
+    margin-right auto
+
+    &:hover > p
+      color $color-black
+
+    > p
+      @extend $title
+      max-width rem(200px)
+      // border 1px solid $color-gray
+      border-radius rem(4px)
+      padding rem(10px)
+      text-align center
+      color $color-gray-dark
+      transition .2s linear all

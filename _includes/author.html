@@ -1,0 +1,32 @@
+<section class="author">
+  <div class="box">
+
+    {% if page.photo %}
+      <figure class="photo" style="background-image: url({{ site.baseurl }}/assets/img/author/{{ page.photo }})">
+    {% else %}
+      <figure class="photo" style="background-image: url('http://www.digitalamerica.org/wp-content/uploads/2014/01/facebook-default-no-profile-pic.jpg')">
+    {% endif %}
+    </figure>
+
+    <div class="content">
+      <p>Autor</p>
+      <h1>{{ page.author }}</h1>
+      <p>{{ page.author_desc }}</p>
+      <div class="more">
+        {% if page.github %}
+          <a target="_blank" href="{{ page.github | prepend: 'http://github.com/' }}"><i class="fa fa-github"></i></a>
+        {% endif %}
+        {% if page.twitter %}
+          <a target="_blank" href="{{ page.twitter | prepend: 'https://twitter.com/' }}"><i class="fa fa-twitter"></i></a>
+        {% endif %}
+        {% if page.linkedin %}
+          <a target="_blank" href="{{ page.linkedin | prepend: 'https://br.linkedin.com/in/ '}}"><i class="fa fa-linkedin"></i></a>
+        {% endif %}
+        {% if page.codepen %}
+          <a target="_blank" href="{{ page.codepen | prepend: 'http://codepen.io/' }}"><i class="fa fa-codepen"></i></a>
+        {% endif %}
+      </div>
+    </div>
+
+  </div>
+</section>

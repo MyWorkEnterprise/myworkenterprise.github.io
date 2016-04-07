@@ -1,0 +1,27 @@
+
+
+.nav
+
+  > h2
+    @extend $title
+    padding rem(5px)
+    color $color-gray
+    text-align center
+
+  > ul
+    list-style none
+    padding 0
+
+    > li
+      padding rem(25px) rem(20px) rem(25px) rem(20px)
+      color $color-gray
+      transition .1s linear all
+
+      &:hover
+        background-color $color-gray
+        color $color-black
+
+      > a
+        @extend $text
+        color inherit
+        text-decoration none

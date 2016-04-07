@@ -1,0 +1,26 @@
+{
+  "name": "jget",
+  "version": "1.0.3",
+  "description": "Simple CLI that made requests for any API",
+  "main": "bin/app",
+  "readme": "README",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "preferGlobal": true,
+  "bin": {
+    "jget": "./bin/jget"
+  },
+  "keywords": [
+    "cli",
+    "request",
+    "api",
+    "nodejs",
+    "myworksblog"
+  ],
+  "author": "Igor Luiz - Halfeld",
+  "license": "WTFPL",
+  "dependencies": {
+    "commander": "^2.9.0"
+  }
+}

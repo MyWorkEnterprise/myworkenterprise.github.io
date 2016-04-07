@@ -1,0 +1,30 @@
+{
+  "name": "myworks-blog",
+  "description": "O blog da comunidade",
+  "main": "gulpfile.js",
+  "authors": [
+    "My Work <contato@mywork.art.br>"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "tutorial",
+    "blog",
+    "desenvolvedor",
+    "programação"
+  ],
+  "moduleType": [],
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "zepto": "^1.1.6",
+    "trianglify": "^0.4.0",
+    "modernizr": "^3.3.1"
+  }
+}
