@@ -1,5 +1,5 @@
 MyWork's Blog
 =============
 
-[DEMO](http://www.blog.mywork.art.br)
+[DEMO](http://blog.mywork.art.br)
 -------------------------------------
