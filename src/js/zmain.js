@@ -38,7 +38,7 @@
             $('.fa-search').css('color' ,'rgb(230, 230, 230)');
             $('.fa-search').removeClass('fa-search');
             $('.search > .fa').addClass('fa-times');
-            $('#findPost').focus();
+            $('#findPost').css('display','block').focus();
           } else {
             $('.content').removeClass('show-overlay');
             $('.fa-times').css('color' ,'rgb(68, 68, 68)');
