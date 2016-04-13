@@ -43,17 +43,17 @@ Depois de instalar as dependências e iniciar o servidor, crie um novo arquivo n
 
 ```
 ---
-layout: post                         # obrigatório
-title:  "titulo do seu post"         # obrigatório
-date:   YYYY-MM-DD hh:mm:ss -0300    # obrigatório
-description: breve descrição do post # obrigatório
-author: seu nome                     # obrigatório
-author_desc: descrição-quem-é-você   # obrigatório
-photo: nome da foto                  # opcional
-github: seu user no github           # opcional
-twitter: seu user no twitter         # opcional
-linkedin: seu user no linkedin       # opcional
-codepen: seu user no codepen         # opcional
+layout: post                                       # obrigatório
+title:  "titulo do seu post"                       # obrigatório
+date:   YYYY-MM-DD hh:mm:ss -0300                  # obrigatório
+description: breve descrição do post               # obrigatório
+author: seu nome                                   # obrigatório
+author_desc: descrição-quem-é-você(seja breve :P)  # obrigatório
+photo: nome da foto                                # opcional
+github: seu user no github                         # opcional
+twitter: seu user no twitter                       # opcional
+linkedin: seu user no linkedin                     # opcional
+codepen: seu user no codepen                       # opcional
 ---
 
 Escrevendo meu post...
