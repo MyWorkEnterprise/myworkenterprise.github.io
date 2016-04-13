@@ -2,9 +2,9 @@
 layout: post                        
 title: "A importância dos algoritmos"        
 date: 2016-04-12 16:55:00 -0300    
-description: Importância uma solução algoritmica antes mesmo de programar.
+description: Importância de uma solução algoritmica antes mesmo de programar.
 author: Bruno Malhano                    
-author_desc: Sou Analista de Sistemas, desenvolvedor Front e Back End, professor de Nível técnico, na área de Informática. Sou apaixonado pela Aline Jordão, por tecnologia e a integração dela com sistemas. Atuo em projetos com arduíno e com BI. Sou também o fundador da My Work e um dos idealizadores deste Blog Lindão :)
+author_desc: Sou Analista de Sistemas, desenvolvedor Front e Back End, professor de Nível técnico, na área de Informática. Sou apaixonado pela Aline Jordão, por tecnologia e a integração dela com sistemas. Atuo em projetos com arduíno e com BI. Sou também o co-fundador da My Work e um dos idealizadores deste Blog Lindão :)
 photo: malhano.jpg                 
 github: BrunoMalhano          
 linkedin: bruno-malhano-83912a66      
