@@ -2,6 +2,7 @@
 layout: post
 title: "Criando CLI com NodeJs"
 description: Aprendendo a criar uma CLI com NodeJs
+image: /assets/img/halfeld-igor-luiz/criando-uma-cli-com-nodejs/nodejs.png
 date: "2016-04-03 03:02:25 -0300"
 author: Igor Luíz
 author_desc: Desenvolvedor front-end, apesar de as vezes pegar uns trabalhos de back, curte muito javascript e compartilhar os paranauês que sabe. Um dos criadores desse blog lindão =).
