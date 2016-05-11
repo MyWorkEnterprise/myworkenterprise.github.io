@@ -64,7 +64,10 @@
       code[class*=highlighter]
         background-color $color-blue-light
         color $color-black
-        font-weight bold
+        border-radius rem(4px)
+        padding rem(3px)
+        // font-weight bold
+        font-size rem(15px)
 
       table
         margin rem(50px) auto
@@ -121,13 +124,15 @@
         margin-left rem(3px)
 
       a
+        padding rem(3px)
         color $color-blue
-        font-weight bold
+        // font-weight bold
         text-decoration none
         transition .2s linear all
 
         &:hover
           color $color-gray
           background-color $color-blue
+          border-radius rem(4px)
 
         // @extend .fa .fa-external-link

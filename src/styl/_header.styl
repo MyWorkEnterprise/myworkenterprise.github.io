@@ -1,9 +1,16 @@
 
 
-.trianglify
+.trianglify, .image-post
   position absolute
-  max-width 100vw
+  width 100vw
   height 100vh
+
+.trianglify
+  background-image linear-gradient(45deg, #cc669a, #52859d)
+
+.image-post
+  background-size cover
+  background-attachment fixed
 
 .wrapper.show .canvas
   transform translate3d(rem(300px),0,0)
@@ -56,9 +63,9 @@
 
         > .fa-search,
         > .fa-times
-          color $color-black
+          color $color-gray
           font-size rem(30px)
-          text-shadow rem(0px) rem(0px) rem(1px) $color-gray-dark
+          text-shadow rem(0px) rem(0px) rem(5px) $color-black
           cursor pointer
 
       > .menu-icon
@@ -97,14 +104,18 @@
     width 100%
     margin-top rem(-10px)
     text-align center
-    // font-weight bold
+    color $color-gray
+    text-shadow rem(0px) rem(0px) rem(8px) $color-black
+    font-weight bold
 
   > .title
     text-align center
     font-family $font-text
     font-size rem(90px)
-    color $color-black
-    text-shadow rem(0px) rem(0px) rem(2px) $color-gray
+    color $color-gray
+    // color $color-black
+    text-shadow rem(0px) rem(0px) rem(8px) $color-black
+    // text-shadow rem(0px) rem(0px) rem(2px) $color-gray
     +below($size-mobile)
       font-size  rem(60px)
 
@@ -113,8 +124,10 @@
     margin-top rem(-50px)
     font-family $font-title
     font-size rem(30px)
-    color $color-black
-    text-shadow rem(0px) rem(0px) rem(2px) $color-gray
+    color $color-gray
+    // color $color-black
+    text-shadow rem(0px) rem(0px) rem(8px) $color-black
+    // text-shadow rem(0px) rem(0px) rem(2px) $color-gray
     +below($size-mobile)
       font-size  rem(25px)
       margin-top rem(-30px)
@@ -138,7 +151,7 @@
 
     > a,
     > .fa-arrow-down
-      color $color-black
+      color $color-gray
       font-size rem(60px)
       text-shadow rem(0px) rem(0px) rem(1px) $color-gray-dark
       transition .3s linear all

@@ -1,6 +1,6 @@
 {
   "name": "myworks-blog",
-  "version": "0.1.0",
+  "version": "0.1.4",
   "description": "O blog da comunidade",
   "main": "gulpfile.js",
   "scripts": {
