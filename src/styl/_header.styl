@@ -1,16 +1,21 @@
 
 
-.trianglify, .image-post
+.trianglify, .image-post, .overlay-background
   position absolute
   width 100vw
   height 100vh
 
 .trianglify
   background-image linear-gradient(45deg, #cc669a, #52859d)
+  box-shadow rem(-20px) rem(0px) rem(10px) #000
 
 .image-post
   background-size cover
   background-attachment fixed
+
+.overlay-background
+  background-color $color-black
+  opacity 0.8
 
 .wrapper.show .canvas
   transform translate3d(rem(300px),0,0)
@@ -48,6 +53,7 @@
       height 100%
       transform translate3d(rem(-300px),0,0)
       background-color $color-black
+      box-shadow inset rem(-8px) rem(0px) rem(10px) #333
 
 
     > .content
