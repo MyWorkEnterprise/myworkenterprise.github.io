@@ -266,7 +266,7 @@ eaí? o que aconteceu? olha a dica, dá uma olhada nos arquivos do seu diretóri
 Publicando no NPM!
 ===================
 
-Para isso você precisa ter um cadrastro no site do [npm](https://www.npmjs.com/){:target="_blank"} e dar uma pesquizada no nome do modulo que você quer dar, por exemplo, o nome que eu quiz dar estava disponível, veja só:
+Para isso você precisa ter um cadrastro no site do [npm](https://www.npmjs.com/){:target="_blank"} e dar uma pesquisada no nome do modulo que você quer dar, por exemplo, o nome que eu quiz dar estava disponível, veja só:
 
 ![Imagem do resultado de busca do npm](/assets/img/halfeld-igor-luiz/criando-uma-cli-com-nodejs/npm-search.png)
 
