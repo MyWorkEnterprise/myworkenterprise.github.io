@@ -80,6 +80,11 @@ Em caso de links externos coloque a opção target=blank, ex:
 
 sabendo disso é só taca-le o pau no carrinho :P
 
+
+<h2 style="position: relative;">Usando Gifs <span class="new">NOVO</span></h2>
+
+Agora você pode usar gifs facilmente no seu post, basta ir no [My Work Gifs](http://blog.mywork.art.br/myworkgifs/), buscar um gif, e pegar a url dele.
+
 ## Arquivos usados no post
 
 Existe um pasta chamada `examples/`, dentro dela você pode colocar os arquivos usados no seu post, seguindo o padrão `examples/seu-user-no-github-seu-nome/nome-do-post/exemplo-do-post`, podendo ter várias pastas de exemplos dentro de `nome-do-post`.

@@ -16,8 +16,8 @@ highlighter: rouge
 links:
   - title: Home
     url: /
-  - title: Escrever um post
-    url: /escrever-um-post/
+# - title: Escrever um post
+#    url: /escrever-um-post/
   - title: Sobre nós
     url: /sobre-nos/
   - title: Feed
