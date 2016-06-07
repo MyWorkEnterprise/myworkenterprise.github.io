@@ -81,7 +81,7 @@ Em caso de links externos coloque a opção target=blank, ex:
 sabendo disso é só taca-le o pau no carrinho :P
 
 
-<h2 style="position: relative;">Usando Gifs <span class="new">NOVO</span></h2>
+## Usando Gifs
 
 Agora você pode usar gifs facilmente no seu post, basta ir no [My Work Gifs](http://blog.mywork.art.br/myworkgifs/), buscar um gif, e pegar a url dele.
 
