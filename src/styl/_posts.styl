@@ -51,15 +51,19 @@
       height auto
       padding rem(0px)
 
-      p
-        line-height 160%
 
       > img,
       > p > img
         width 100%
 
       > iframe
-        max-width 100%
+        width 100%
+        box-shadow rem(0px) rem(10px) rem(30px) rem(2px) #444
+        +below($size-tablet)
+          height rem(410px)
+        +below(480px)
+          height rem(300px)
+
 
       code[class*=highlighter]
         background-color $color-blue-light
@@ -108,6 +112,7 @@
       p,
       li
         @extend $text
+        line-height 160%
 
       em
         color $color-gray-dark

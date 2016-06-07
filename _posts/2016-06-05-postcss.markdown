@@ -1,0 +1,53 @@
+---
+layout: post                                                
+title:  "PostCSS"                                           
+date:   2016-06-05 18:02:25 -0300                           
+description: Transformando CSS com JavaScript               
+image: /assets/img/halfeld-igor-luiz/postcss/thumbnail.png
+author: Igor Luíz
+author_desc: Desenvolvedor front-end, apesar de as vezes pegar uns trabalhos de back, curte muito javascript e compartilhar os paranauês que sabe. Um dos criadores desse blog lindão =).
+photo: halfeld-igor-luiz.jpg
+github: Halfeld
+codepen: Halfeld
+---
+
+Introdução
+==========
+
+Heeeeey galera, mó tempo que não escrevo, eu estou meio enrolado com umas paradas e como gosto de fazer esses posts com calma... ahhh vocês já manjaram =D
+
+O que é PostCSS?
+================
+
+PostCSS é uma ferramenta para transformar CSS com **plugins javascript**, é meio como o Gulp ou Grunt funciona, que você tem o _Task Runner_, mas o coração fica a rigor dos plugins, onde você tem o `gulp`, `grunt`, `grunt-contrib-jshint`, `gulp-uglify`, `gulp-imagemin`, `grunt-contrib-cssmin` e assim por diante. Passando para o nosso português marotado, PostCSS significa pós-css, ou seja, temos costume de usar Stylus, Sass, Less... mas eles são pre-processadores, e o que temos com o PostCSS é uma forma diferente de trabalhar, já que você escreve seu CSS e depois ele entra em ação.
+
+Enfim faz todo sentido trabalhar dessa forma ;)
+
+Como funciona?
+==============
+
+Bem, achei melhor fazer um vídeo rapidinho para explicar...
+
+<iframe height="480" src="https://www.youtube.com/embed/RXMFNZGi76c?showinfo=0&controls=0" frameborder="0" allowfullscreen></iframe>
+<!-- ![como funciona o postcss](/assets/img/halfeld-igor-luiz/postcss/how-works.png) -->
+
+Segue uns plugins que eu uso:
+
++ [precss](https://github.com/jonathantneal/precss){:target="_blank"} - Usar systax SASS-like.
++ [cssnext](https://github.com/cssnext/cssnext){:target="_blank"} - Usar features do CSS level 4.
++ [lost](https://github.com/peterramsing/lost){:target="_blank"} - Sistema de Grid lokão.
++ [autoprefixer](https://github.com/postcss/autoprefixer){:target="_blank"} - Prefixer =)
++ [write-svg](https://github.com/jonathantneal/postcss-write-svg){:target="_blank"} - Permite escrever SVG diretamente no CSS.
++ [postcss-conic-gradient](https://github.com/jonathantneal/postcss-conic-gradient){:target="_blank"} - Esse aqui só tu olhando porquê é bem loko.
++ [postcss-cyspriter](https://github.com/Code-Y/postcss-cyspriter){:target="_blank"} - Permite criar sprites.
+
+
+Encerramento
+============
+
+E aí? o que vocês acharam desse meninão?
+
+![Gif de um cara falando: 'That was awesome'](http://media4.giphy.com/media/jPJz9s6VAqLLi/200.gif)
+
+beleza! em um próximo post de PostCSS, amostrarei como fazer para criar seus próprios plugins <3  
+Até a próxima galera!

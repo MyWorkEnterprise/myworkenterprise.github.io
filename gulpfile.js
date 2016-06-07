@@ -69,7 +69,7 @@ gulp.task('js-util', ['js'], () => {
  * Image task
  */
 gulp.task('img', () => {
-  return gulp.src('src/img/**/*.{jpg,png,gif}')
+  return gulp.src('src/img/**/*.{jpg,png,gif,svg}')
             .pipe(plumber())
             .pipe(imagemin({ optimizationLevel: 5, progressive: true, interlaced: true }))
             .pipe(gulp.dest('_site/assets/img/'))
