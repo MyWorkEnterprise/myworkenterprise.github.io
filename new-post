@@ -70,7 +70,7 @@ layout: post
 title: ${Post.title}
 date:   ${date[0]} ${date[1]} -0300
 description: ${Post.description}
-image: /assets/img/${Post.authorGH}-${Post.authorName.replace(/ /g, '-').toLowerCase()}/${Post.title}/${Post.imageName}
+image: ${Post.authorGH}-${Post.authorName.replace(/ /g, '-').toLowerCase()}/${Post.title}/${Post.imageName}
 author: ${Post.authorGH}
 author_desc: ${Post.authorDesc}
 photo: ${Post.authorPhoto}

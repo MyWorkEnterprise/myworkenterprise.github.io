@@ -38,22 +38,22 @@ e pronto você já pode escrever um post.
 
 # Tacando-le o pau no carrinho
 
-Depois de instalar as dependências e iniciar o servidor, crie um novo arquivo na pasta **_post** seguindo o padrão de nome de arquivo `YYYY-MM-DD-nome-do-post.md` e no cabeçalho do mesmo coloque as seguntes informações:
+Depois de instalar as dependências, basta rodar no seu terminal `./new-post` e responder as perguntas. Será criado a pasta onde você deverá colocar suas imagens, e também criará um arquivo dentro da pasta `_posts` com o nome do seu post, com as devidas informações já definidas em que as mesmas, correspondem:
 
 ```
 ---
-layout: post                                                                   # obrigatório
-title:  "titulo do seu post"                                                   # obrigatório
-date:   YYYY-MM-DD hh:mm:ss -0300                                              # obrigatório
-description: breve descrição do post                                           # obrigatório
-image: /assets/img/seu-user-no-github-seu-nome/nome-do-post/sua-imagem.png     # obrigatório
-author: seu nome                                                               # obrigatório
-author_desc: descrição-quem-é-você(seja breve :P)                              # obrigatório
-photo: nome da foto                                                            # opcional
-github: seu user no github                                                     # opcional
-twitter: seu user no twitter                                                   # opcional
-linkedin: seu user no linkedin                                                 # opcional
-codepen: seu user no codepen                                                   # opcional
+layout: post                                                       # obrigatório
+title:  "titulo do seu post"                                       # obrigatório
+date:   YYYY-MM-DD hh:mm:ss -0300                                  # obrigatório
+description: breve descrição do post                               # obrigatório
+image: seu-user-no-github-seu-nome/nome-do-post/sua-imagem.png     # obrigatório
+author: seu nome                                                   # obrigatório
+author_desc: descrição-quem-é-você(seja breve :P)                  # obrigatório
+photo: nome da foto                                                # opcional
+github: seu user no github                                         # opcional
+twitter: seu user no twitter                                       # opcional
+linkedin: seu user no linkedin                                     # opcional
+codepen: seu user no codepen                                       # opcional
 ---
 
 Escrevendo meu post...
@@ -62,7 +62,9 @@ Escrevendo meu post...
 
 na opção `photo`, se você desejar, poderá colocar sua foto para aparecer como autor do post, é só colocar a foto dentro na pasta `/src/img/author` e colocar o nome dela alí, ex: **seu-user-no-github-seu-nome.png**.
 
-e também na opção `image`, é onde vai ficar a imagem do seu post,a imagem principal.
+E também na opção `image`, é onde vai ficar a imagem do seu post,a imagem principal.
+
+Caso não consiga rodar o `./new-post`, basta dar permição de execução ao arquivo com `chmod +x new-post`.
 
 ## Inserindo imagens
 
@@ -71,6 +73,7 @@ Caso vá usar alguma imagem no seu post, crie uma uma nova pasta dentro de `src/
 ```
 [Sua imagem lindona](/assets/img/seu-user-no-github-seu-nome/nome-do-post/sua-imagem.png)
 ```
+
 
 ## Links externos
 
