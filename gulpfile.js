@@ -14,7 +14,6 @@ const cp = require('child_process'),
       koutoSwiss = require('kouto-swiss'),
       prefixer = require('autoprefixer-stylus');
 
-
 /**
  * Build the jekyll
  */
@@ -95,6 +94,7 @@ gulp.task('stylus', () => {
             }))
             .pipe(gulp.dest('assets/css'));
 });
+
 
 /**
  * Watch files

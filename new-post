@@ -1,0 +1,98 @@
+#!/usr/bin/env node
+
+'use strict';
+
+const colors = require('colors'),
+      readlineSync = require('readline-sync'),
+      mkdirp = require('mkdirp'),
+      fs = require('fs');
+
+
+function newPost() {
+  console.log(' ');
+  console.log('   MyWork\'s Blog'. bold .cyan);
+  console.log('   ================='. bold);
+  console.log('   Create a new post'. bold);
+  console.log(' ');
+
+  const title = readlineSync.question('   Title ' .bold + '(my-post) ' .gray) || 'my-post';
+  const description = readlineSync.question('   Description ' .bold + '(my-awesome-post) ' .gray) || 'my-awesome-post';
+  const imageName = readlineSync.question('   Image name ' .bold + '(myimage.png) ' .gray) || 'myimage.png';
+
+  const authorName = readlineSync.question('   Author ' .bold + '(Igor Luíz) ' .gray) || 'Igor Luíz';
+  const authorDesc = readlineSync.question('   Author description ' .bold + '(Full Stack JavaScript Developer) '. gray) || 'Full Stack JavaScript Developer';
+  const authorPhoto = readlineSync.question('   Photo name ' .bold + '(myphoto.png) ' .gray) || 'myphoto.png';
+  const authorGH = readlineSync.question('   Github ' .bold + '(github-user) ' .gray) || 'github-user';
+  const authorTwitter = readlineSync.question('   Twitter ' .bold + '(twitter-user) ' .gray) || 'twitter-user';
+  const authorLinkedin = readlineSync.question('   Linkedin ' .bold + '(linkedin-user) ' .gray) || 'linkedin-user';
+  const authorCodepen = readlineSync.question('   Codepen ' .bold + '(codepen-user) ' .gray) || 'codepen-user';
+
+  return {
+    title,
+    description,
+    imageName,
+    authorName,
+    authorDesc,
+    authorPhoto,
+    authorGH,
+    authorTwitter,
+    authorLinkedin,
+    authorCodepen
+  }
+}
+
+/**
+ * @param {Number} number
+ */
+function checkDate(number) {
+  if(number < 10) return `0${number}`;
+  return number;
+}
+
+/**
+ * @param {String} path
+ */
+function createDir(path) {
+  return new Promise( (resolve, reject) => {
+    mkdirp(path, err => err ? reject(err) : resolve(path));
+  });
+}
+
+
+function createPost() {
+  const Post = newPost(),
+        date = [`${new Date().getFullYear()}-${checkDate(new Date().getMonth() + 1)}-${checkDate(new Date().getDay())}`,
+                `${checkDate(new Date().getHours())}:${checkDate(new Date().getMinutes())}:${checkDate(new Date().getSeconds())}`]
+
+  const template = `
+---
+layout: post
+title: ${Post.title}
+date:   ${date[0]} ${date[1]} -0300
+description: ${Post.description}
+image: /assets/img/${Post.authorGH}-${Post.authorName.replace(/ /g, '-').toLowerCase()}/${Post.title}/${Post.imageName}
+author: ${Post.authorGH}
+author_desc: ${Post.authorDesc}
+photo: ${Post.authorPhoto}
+github: ${Post.authorGH}
+twitter: ${Post.authorTwitter}
+linkedin: ${Post.authorLinkedin}
+codepen: ${Post.authorCodepen}
+---
+  `;
+
+  createDir(`src/img/${Post.authorGH}-${Post.authorName.replace(/ /g, '-').toLowerCase()}/${Post.title}`)
+    .then(path => {
+      fs.writeFile(`_posts/${date[0]}-${Post.title}.md`, template, err => {
+        if(err) throw new Error(err);
+        console.log(' ');
+        console.log('   Success!'. bold .cyan);
+        console.log('   ========');
+        console.log('   Created '. bold + `_posts/${date[0]}-${Post.title}.md`);
+        console.log('   Created '. bold + `src/img/${Post.authorGH}-${Post.authorName.replace(/ /g, '-').toLowerCase()}/${Post.title}`);
+      });
+    })
+    .catch(err => new Error(err));
+}
+
+createPost();
