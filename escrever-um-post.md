@@ -18,11 +18,13 @@ sabendo disso, você já consegue escrever :)
 
 Para escrever você precisa ir no [repositório](https://github.com/MyWorkEnterprise/myworkenterprise.github.io/){:target="_blank"} desse blog no github e fazer um fork para sua conta, logo depois clone esse repositório "forkeado" da sua conta para seu computador.
 
-É necessário ter o [Ruby](https://www.ruby-lang.org/pt/){:target="_blank"}, o [Jekyll](http://jekyllrb.com/){:target="_blank"}, o [NodeJS](https://nodejs.org/en/){:target="_blank"} e o [Gulp](http://gulpjs.com/){:target="_blank"} instalado, feito isso entre na pasta clonada pelo terminal e:
+É necessário ter o [Ruby](https://www.ruby-lang.org/pt/){:target="_blank"}, o [Bundler](http://bundler.io/){:target="_blank"}, o [NodeJS](https://nodejs.org/en/){:target="_blank"} e o [Gulp](http://gulpjs.com/){:target="_blank"} instalado, feito isso entre na pasta clonada pelo terminal e:
 
 ## Instale as dependências
 
 ```sh
+bundle install
+
 npm install
 ```
 
