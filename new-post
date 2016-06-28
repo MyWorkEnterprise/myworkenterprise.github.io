@@ -61,7 +61,7 @@ function createDir(path) {
 
 function createPost() {
   const Post = newPost(),
-        date = [`${new Date().getFullYear()}-${checkDate(new Date().getMonth() + 1)}-${checkDate(new Date().getDay())}`,
+        date = [`${new Date().getFullYear()}-${checkDate(new Date().getMonth() + 1)}-${checkDate(new Date().getDate())}`,
                 `${checkDate(new Date().getHours())}:${checkDate(new Date().getMinutes())}:${checkDate(new Date().getSeconds())}`]
 
   const template = `
