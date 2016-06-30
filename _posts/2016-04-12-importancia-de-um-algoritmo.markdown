@@ -4,7 +4,7 @@ title: A importância dos algoritmos
 date: '2016-04-12 16:55:00 -0300'
 description: Importância de uma solução algoritmica antes mesmo de programar.
 image: >-
-  /assets/img/BrunoMalhano-bruno-malhano/importancia-de-um-algoritmo/algoritmo.jpg
+  BrunoMalhano-bruno-malhano/importancia-de-um-algoritmo/algoritmo.jpg
 author: Bruno Malhano
 author_desc: >-
   Sou Analista de Sistemas, desenvolvedor Front e Back End, professor de Nível
