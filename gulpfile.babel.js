@@ -11,6 +11,8 @@ import Js from './gulptasks/js';
 import JsUtil from './gulptasks/js-util';
 import Img from './gulptasks/img';
 import Stylus from './gulptasks/stylus';
+import Deploy from './gulptasks/deploy';
+
 
 // Build the jekyll
 // ================
@@ -40,6 +42,11 @@ gulp.task('img', () => Img());
 // Stylus task
 // ===========
 gulp.task('stylus', () => Stylus());
+
+
+// Deploy post task
+// ================
+gulp.task('deploy', done => Deploy(done));
 
 // Watch files
 // ==========
