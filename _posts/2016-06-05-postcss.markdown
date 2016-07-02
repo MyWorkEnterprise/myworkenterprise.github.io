@@ -28,7 +28,7 @@ Como funciona?
 
 Bem, achei melhor fazer um vídeo rapidinho para explicar...
 
-<iframe height="480" src="https://www.youtube.com/embed/RXMFNZGi76c?showinfo=0&controls=0" frameborder="0" allowfullscreen></iframe>
+<iframe height="480" src="https://www.youtube.com/embed/RXMFNZGi76c" frameborder="0" allowfullscreen></iframe>
 <!-- ![como funciona o postcss](/assets/img/halfeld-igor-luiz/postcss/how-works.png) -->
 
 Segue uns plugins que eu uso:
