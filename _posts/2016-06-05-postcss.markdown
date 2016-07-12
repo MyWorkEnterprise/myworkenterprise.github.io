@@ -3,7 +3,7 @@ layout: post
 title:  "PostCSS"                                           
 date:   2016-06-05 18:02:25 -0300                           
 description: Transformando CSS com JavaScript               
-image: halfeld-igor-luiz/postcss/thumbnail.png
+image: halfeld-igor-luíz/postcss/thumbnail.png
 author: Igor Luíz
 author_desc: Desenvolvedor front-end, apesar de as vezes pegar uns trabalhos de back, curte muito javascript e compartilhar os paranauês que sabe. Um dos criadores desse blog lindão =).
 photo: halfeld-igor-luiz.jpg

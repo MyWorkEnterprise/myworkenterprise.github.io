@@ -3,7 +3,7 @@ layout: post
 title:  "Usando ES6 com GulpJs"                                           
 date:   2016-06-16 20:02:25 -0300                           
 description: Usando as features do ES2015
-image: halfeld-igor-luiz/usando-es6-com-gulpjs/es6-gulp.png
+image: halfeld-igor-luíz/usando-es6-com-gulpjs/es6-gulp.png
 author: Igor Luíz
 author_desc: Desenvolvedor front-end, apesar de as vezes pegar uns trabalhos de back, curte muito javascript e compartilhar os paranauês que sabe. Um dos criadores desse blog lindão =).
 photo: halfeld-igor-luiz.jpg

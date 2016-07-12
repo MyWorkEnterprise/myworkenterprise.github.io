@@ -2,7 +2,7 @@
 layout: post
 title: Escalonando aplicações NodeJs
 description: 'Processos, Load Balancer e Reverse-Proxy'
-image: halfeld-igor-luiz/escalonando-aplicações-nodejs/nodejs.png
+image: halfeld-igor-luíz/escalonando-aplicações-nodejs/nodejs.png
 date: '2016-04-21 08:02:25 -0300'
 author: Igor Luíz
 author_desc: >-

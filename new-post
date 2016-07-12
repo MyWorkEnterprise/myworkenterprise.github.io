@@ -58,6 +58,13 @@ function createDir(path) {
   });
 }
 
+/**
+ * @param {String} value
+ */
+function format(value) {
+  return value.replace(/ /g, '-').toLowerCase();
+}
+
 
 function createPost() {
   const Post = newPost(),
@@ -70,7 +77,7 @@ layout: post
 title: ${Post.title}
 date:   ${date[0]} ${date[1]} -0300
 description: ${Post.description}
-image: ${Post.authorGH}-${Post.authorName.replace(/ /g, '-').toLowerCase()}/${Post.title}/${Post.imageName}
+image: ${Post.authorGH}-${format(Post.authorName)}/${format(Post.title)}/${Post.imageName}
 author: ${Post.authorGH}
 author_desc: ${Post.authorDesc}
 photo: ${Post.authorPhoto}
@@ -81,15 +88,15 @@ codepen: ${Post.authorCodepen}
 ---
   `;
 
-  createDir(`src/img/${Post.authorGH}-${Post.authorName.replace(/ /g, '-').toLowerCase()}/${Post.title}`)
+  createDir(`src/img/${Post.authorGH}-${format(Post.authorName)}/${format(Post.title)}`)
     .then(path => {
-      fs.writeFile(`_posts/${date[0]}-${Post.title}.md`, template, err => {
+      fs.writeFile(`_posts/${date[0]}-${format(Post.title)}.md`, template, err => {
         if(err) throw new Error(err);
         console.log(' ');
         console.log('   Success!'. bold .cyan);
         console.log('   ========');
-        console.log('   Created '. bold + `_posts/${date[0]}-${Post.title}.md`);
-        console.log('   Created '. bold + `src/img/${Post.authorGH}-${Post.authorName.replace(/ /g, '-').toLowerCase()}/${Post.title}`);
+        console.log('   Created '. bold + `_posts/${date[0]}-${format(Post.title)}.md`);
+        console.log('   Created '. bold + `src/img/${format(Post.authorGH)}-${format(Post.authorName)}/${format(Post.title)}`);
       });
     })
     .catch(err => new Error(err));
