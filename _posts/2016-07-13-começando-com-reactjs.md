@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Começando com ReactJs
-date:   2016-07-11 22:29:55 -0300
+date:   2016-07-13 14:29:55 -0300
 description: Entendendo o ReactJs e seus conceitos
 image: halfeld-igor-luíz/começando-com-reactjs/react.svg
 author: Igor Luíz
