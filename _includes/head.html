@@ -13,7 +13,7 @@
   <meta name="twitter:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
   <meta name="twitter:description" content="{% if page.description %}{{ page.description | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
   {% if page.image %}
-    <meta property="twitter:image:src" content="{{ site.url }}{{ page.image }}">
+    <meta property="twitter:image:src" content="{{ site.url }}/assets/img/{{ page.image }}">
   {% else %}
     <meta property="twitter:image:src" content="{{ "/assets/img/myworksblog.png" | prepend: site.url }}">
   {% endif %}
@@ -24,7 +24,7 @@
   <meta property="og:description" content="{% if page.description %}{{ page.description | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
   <meta property="og:site_name" content="{{ site.title }}">
   {% if page.image %}
-    <meta property="og:image" content="{{ site.url }}{{ page.image }}">
+    <meta property="og:image" content="{{ site.url }}/assets/img/{{ page.image }}">
   {% else %}
     <meta property="og:image" content="{{ "/assets/img/myworksblog.png" | prepend: site.url }}">
   {% endif %}
