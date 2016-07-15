@@ -277,4 +277,4 @@ Encerramento
 ============
 
 Bem isso é tudo pessoal, espero que tenham pegado o jeito da parada :D  
-qualquer coisa comenta aí, deixando alguma dúvida, crítica, um opinião do post, tudo é válido.
+qualquer coisa comenta aí, deixando alguma dúvida, crítica, uma opinião do post, tudo é válido.
