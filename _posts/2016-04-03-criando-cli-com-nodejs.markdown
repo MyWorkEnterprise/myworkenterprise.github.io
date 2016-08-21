@@ -169,7 +169,7 @@ Tacando-le o pau no carrinho
 
 Show, pegamos a essência baguio, vamos começar de verdade agora!
 
-![Will Smith dançando](/assets/img/halfeld-igor-luiz/criando-uma-cli-com-nodejs/fresh-prince-dance.gif)
+![Will Smith dançando](/assets/img/halfeld-igor-luíz/criando-uma-cli-com-nodejs/fresh-prince-dance.gif)
 
 Para continuar vamos fazer modularizando a parada, então para isso criei mais dois arquivos dentro da pasta `lib`, o `getApi.js` que será resonsável apenas por fazer a requisição para a API externa, e o `writeJson.js` que tem a função de gravar a _data_ em um arquivo JSON no diretório em que a CLI foi chamada.
 
@@ -268,7 +268,7 @@ Publicando no NPM!
 
 Para isso você precisa ter um cadrastro no site do [npm](https://www.npmjs.com/){:target="_blank"} e dar uma pesquisada no nome do modulo que você quer dar, por exemplo, o nome que eu quiz dar estava disponível, veja só:
 
-![Imagem do resultado de busca do npm](/assets/img/halfeld-igor-luiz/criando-uma-cli-com-nodejs/npm-search.png)
+![Imagem do resultado de busca do npm](/assets/img/halfeld-igor-luíz/criando-uma-cli-com-nodejs/npm-search.png)
 
 depois de fazer isso, vamos dar o comando `npm adduser`, que irá pedir seu usuário, senha e email(esse e-mail ficará público), respondido as perguntas e estando logado no site do NPM, você precisa dar o comando `npm login`.
 
@@ -295,7 +295,7 @@ jget pokeapi.co/api/v1/pokemon/
 
 eaí? o que aconteceu?
 
-![Imagem do resultado de busca do npm](/assets/img/halfeld-igor-luiz/criando-uma-cli-com-nodejs/jiggy.gif)
+![Imagem do resultado de busca do npm](/assets/img/halfeld-igor-luíz/criando-uma-cli-com-nodejs/jiggy.gif)
 
 **ahhhhhhhhhhhh muleke, funcionou! claro que funcionou é javascript sempre funciona :D**
 

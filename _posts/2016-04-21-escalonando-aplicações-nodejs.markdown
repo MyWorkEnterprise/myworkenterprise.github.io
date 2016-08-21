@@ -139,7 +139,7 @@ ou seja, segue 1-2-3, 1-2-3, 1-2-3 ....
 
 Exemplo de _Load Balancer_:
 
-![Exemplo de load balancer](/assets/img/halfeld-igor-luiz/escalonando-aplicações-nodejs/load-balancing.png)
+![Exemplo de load balancer](/assets/img/halfeld-igor-luíz/escalonando-aplicações-nodejs/load-balancing.png)
 
 vamos ao arquivo `nginx.conf` na parte que nos interessa de novo e acrecentar o seguinte:
 
