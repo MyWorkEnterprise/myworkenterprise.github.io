@@ -1,3 +1,6 @@
+
+// Author area
+// ===========
 .author
   margin 0 auto
   max-width 100%
@@ -7,6 +10,7 @@
 
 
   // Section photo
+  // =============
   > .author__sectionphoto
     padding rem(0px)
     display flex
@@ -28,15 +32,33 @@
         border-radius 50%
 
   // Section about
-  > .author__sectionphoto--about
+  // =============
+  > .author__desc--about
     padding-left rem(50px)
     padding-right rem(50px)
 
-    > .author__sectionphoto--aboutname
+    > .author__desc--aboutname
       @extend $title
       margin-top 0
       text-align center
 
-    > .author__sectionphoto--aboutdesc
+    > .author__desc--aboutdesc
       @extend $text
       text-align center
+
+
+  // Section links
+  // =============
+  > .author__links
+    display flex
+    justify-content space-around
+
+    > a
+      @extend $text
+      color $color-gray-dark
+      text-decoration none
+      font-size rem(16px)
+
+      &:hover
+        color $color-black
+        text-decoration underline

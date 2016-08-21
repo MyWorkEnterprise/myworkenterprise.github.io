@@ -14,9 +14,24 @@
   </div>
 
   <!-- Section about -->
-  <div class="author__sectionphoto--about">
-    <h1 class="author__sectionphoto--aboutname">{{ page.author }}</h1>
-    <p class="author__sectionphoto--aboutdesc">{{ page.author_desc }}</p>
+  <div class="author__desc--about">
+    <h1 class="author__desc--aboutname">{{ page.author }}</h1>
+    <p class="author__desc--aboutdesc">{{ page.author_desc }}</p>
   </div>
-  
+
+  <!-- Setion links -->
+  <div class="author__links">
+    {% if page.github %}
+      <a target="_blank" href="{{ page.github | prepend: 'http://github.com/' }}">Github</a>
+    {% endif %}
+    {% if page.twitter %}
+      <a target="_blank" href="{{ page.twitter | prepend: 'https://twitter.com/' }}">Twitter</a>
+    {% endif %}
+    {% if page.linkedin %}
+      <a target="_blank" href="{{ page.linkedin | prepend: 'https://br.linkedin.com/in/ '}}">linkedin</a>
+    {% endif %}
+    {% if page.codepen %}
+      <a target="_blank" href="{{ page.codepen | prepend: 'http://codepen.io/' }}">Codepen</a>
+    {% endif %}
+  </div>
 </section>
