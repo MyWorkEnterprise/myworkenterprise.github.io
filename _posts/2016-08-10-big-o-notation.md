@@ -106,6 +106,11 @@ Descreve um algoritmo cuja complexidade cresce a cada iteração, um bom exemplo
 const f = n => (n === 0) ? 1 : (n * f(n - 1))
 ```
 
+ou seja, é **recursivo**, caso você não saiba o que é recursividade, um exemplo muito bom que eu inclusive vi no [Front in Sampa](http://frontinsampa.com.br/){:target="_blank"} é o da latinha de royal.
+
+Você percebe a recursividade quando você vê a latinha de royal na latinha de royal na latinha de royal...
+
+![latinha de royal](/assets/img/halfeld-igor-luíz/big-o-notation/royal.png)
 # Referências
 
 + [Artigo do rob-bell.net](https://rob-bell.net/2009/06/a-beginners-guide-to-big-o-notation/){:target="_blank"}
