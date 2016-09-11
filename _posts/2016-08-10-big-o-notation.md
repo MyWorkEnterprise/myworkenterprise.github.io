@@ -111,6 +111,8 @@ ou seja, é **recursivo**, caso você não saiba o que é recursividade, um exem
 Você percebe a recursividade quando você vê a latinha de royal na latinha de royal na latinha de royal...
 
 ![latinha de royal](/assets/img/halfeld-igor-luíz/big-o-notation/royal.png)
+
+
 # Referências
 
 + [Artigo do rob-bell.net](https://rob-bell.net/2009/06/a-beginners-guide-to-big-o-notation/){:target="_blank"}
