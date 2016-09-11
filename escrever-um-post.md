@@ -1,8 +1,8 @@
 ---
-layout: post
 title: Quer escrever?
+layout: post
 description: Veja como...
-permalink: /escrever-um-post/
+permalink: "/escrever-um-post/"
 ---
 
 # Requisitos...
@@ -31,10 +31,10 @@ npm install
 ## Inicie o servidor
 
 ```sh
-gulp
+bundle exec jekyll s
 ```
 
-e pronto você já pode escrever um post.
+e pronto você já pode escrever um post :D
 
 # Tacando-le o pau no carrinho
 
@@ -64,7 +64,9 @@ na opção `photo`, se você desejar, poderá colocar sua foto para aparecer com
 
 E também na opção `image`, é onde vai ficar a imagem do seu post,a imagem principal.
 
-Caso não consiga rodar o `./new-post`, basta dar permição de execução ao arquivo com `chmod +x new-post`.
+Após isso, você acessando `localhost:4000/admin` e entrando em posts no menu ao lado, basta clicar no seu e taca-le pau
+
+**Caso não consiga rodar o `./new-post`, basta dar permição de execução ao arquivo com `chmod +x new-post`.**
 
 ## Inserindo imagens
 
@@ -74,6 +76,11 @@ Caso vá usar alguma imagem no seu post, crie uma uma nova pasta dentro de `src/
 [Sua imagem lindona](/assets/img/seu-user-no-github-seu-nome/nome-do-post/sua-imagem.png)
 ```
 
+e depois executar a task de imagem:
+
+```
+gulp img
+```
 
 ## Links externos
 
