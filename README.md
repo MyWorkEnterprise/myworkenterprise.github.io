@@ -1,24 +1,20 @@
 MyWork's Blog
 =============
 
-Quem somos nós
---------------
+## Quem somos nós
 
-Olá, nós somos a [My Work](http://www.mywork.art.br) e desenvolvemos soluções em software, tanto para web quanto para desktop.
+Olá, na verdade "nós" somos [eu, Igor](http://igorluiz.me/) e [meu brother, Bruno](https://www.linkedin.com/in/bruno-malhano-83912a66)
 
 
-Mas e esse blog?
----------------
+## Mas e esse blog?
 
-Esse blog foi uma ideia que tivemos quando pensamos
+Esse blog surgiu de uma vontade minha e de uma ideia do bruno, eu sempre quis ajudar a comunidade pois sempre pedi a ajuda dela para ganhar mais conhecimento e também já estava procastinando para criar o meu blog pessoal.
 
-> Como ajudar a comunidade?
+Nessa procastinação bruno chegou para mim com essa ideia de criarmos um blog para colocarmos conteúdo e servir também para estudar, já que quando se passa conhecimento, você acaba aprendendo 2x mais, já que é preciso ter consistência no que se esta passando adiante.
 
-bem... isso não é uma grande dúvida mas pense no sequinte, se você, sim você mesmo que esta lendo isso, vamos dizer que esteja estudando algo, como a maioria dos devs, o google orienta seus estudos, logo você procura conteúdo para aprender, pesquisa por blogs, faz buscas no Stack Overflow, lê livros, enfim... a questão agora é o que fazer para compartilhar o que você aprendeu, afinal, haverá outros devs que certamente vão ter as mesmas dúvidas que você.
+Bem... então pensamos em quanta gente também gostaria de escrever sobre alguma coisa.
+Aí entra esse blog, um blog que não há nível conteúdo, do conteúdo mais básico ao mais avançado, afinal o básico é o avançado para muitos, um blog da comunidade onde melhoram ele, [escrevem](/escrever-um-post/) nele e aprendem nele, sempre compartilhando o que sabem.
 
-Há várias formas de você fazer isso, desde você participar em um fórum a criar seu próprio blog, mas com tantas coisas para fazer em nosso dia-a-dia fica díficil de começar algo, já que além de exigir tempo para começar exige tempo para continuar.
+## Por que usar Jekyll ao inves do Wordpress?
 
-> Tá, mas como contornar isso?
-
-Aí entra esse blog, a ideia de fazer algo assim não é nada novo, mas é mais uma forma de aumentar quantidade de conteúdo, é um blog padronizado, simples e bonito :P onde qualquer dev pode postar(claro que com o conteúdo relevante), um blog que não há nível conteúdo, do conteúdo mais básico ao mais avançado, afinal o básico é o avançado para muitos,
-esse blog é da comunidade onde melhoram ele, [escrevem](/escrever-um-post/) nele e aprendem nele, sempre compartilhando o que sabem.
+A proposta inicial é que o código fique aberto, no nosso caso deixamos no Github e como Jekyll é processado no Github tudo fica mais fácil, como por exemplo se um post/melhoria chegar por Pull Request, basta fazer um merge lá mesmo sem a necessidade de clonar para fazer o build.
