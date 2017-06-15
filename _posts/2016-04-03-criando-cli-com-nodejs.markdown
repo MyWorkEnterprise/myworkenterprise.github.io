@@ -82,7 +82,7 @@ Agora vamos a árvore de pastas:
 2 directories, 3 files
 ```
 
-Não se esqueça de dar permição de execução ao arquivo `bin/jget`, assim:
+Não se esqueça de dar permissão de execução ao arquivo `bin/jget`, assim:
 
 ```sh
 chmod +x bin/jget
